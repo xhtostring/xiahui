@@ -1,0 +1,59 @@
+{
+  "pages": [
+    {
+		"path": "pages/index/index",
+		"style": {
+			"navigationBarTitleText": "首页"
+		}
+	},
+    {
+    	"path" : "pages/message/message",
+    	"style" : 
+    	{
+    		"navigationBarTitleText" : "消息"
+    	}
+    },
+    {
+    	"path" : "pages/mine/mine",
+    	"style" : 
+    	{
+    		"navigationBarTitleText" : "我的"
+    	}
+    }
+  ],
+  
+  "window": {
+    "backgroundTextStyle": "light",
+    "navigationBarBackgroundColor": "#4A90E2",
+    "navigationBarTitleText": "消智云",
+    "navigationBarTextStyle": "white"
+  },
+  "tabBar": {
+    "list": [
+      {
+        "pagePath": "pages/index/index",
+        "text": "首页",
+        "iconPath": "static/images/tabbar_home.png", // 路径改变
+        "selectedIconPath": "static/images/tabbar_home_active.png" // 路径改变
+      },
+      {
+        "pagePath": "pages/message/message",
+        "text": "消息",
+        "iconPath": "static/images/tabbar_msg.png", // 路径改变
+        "selectedIconPath": "static/images/tabbar_msg_active.png" // 路径改变
+      },
+      {
+        "pagePath": "pages/mine/mine",
+        "text": "我的",
+        "iconPath": "static/images/tabbar_my.png", // 路径改变
+        "selectedIconPath": "static/images/tabbar_my_active.png" // 路径改变
+      }
+    ],
+    "color": "#999999",
+    "selectedColor": "#4A90E2",
+    "backgroundColor": "#ffffff"
+  },
+  
+  "uniIdRouter": {}
+}
+

@@ -1,0 +1,283 @@
+
+.container.data-v-1cf27b2a {
+		padding-bottom: 120rpx;
+		background-color: #f0f4f7;
+}
+
+	/* Swiper 容器样式 */
+.banner-swiper.data-v-1cf27b2a {
+		height: 350rpx;
+		/* Swiper 的高度需要设置，与原 Banner 高度一致 */
+		margin-bottom: 30rpx;
+		border-bottom-left-radius: 20rpx;
+		border-bottom-right-radius: 20rpx;
+		overflow: hidden;
+		/* 确保内容不会超出圆角 */
+}
+
+	/* 将 section-banner 的样式应用到 swiper-item 内的 container */
+	/* Swiper Item 内的容器 */
+.section-banner.data-v-1cf27b2a {
+		position: relative;
+		height: 100%;
+		/* 占满 swiper-item 的高度 */
+		width: 100%;
+		/* 占满 swiper-item 的宽度 */
+		border-bottom-left-radius: 20rpx;
+		/* 保持圆角 */
+		border-bottom-right-radius: 20rpx;
+		/* 保持圆角 */
+		overflow: hidden;
+		/* 确保背景图不会超出圆角 */
+}
+.banner-bg.data-v-1cf27b2a {
+		width: 100%;
+		height: 100%;
+}
+.banner-content.data-v-1cf27b2a {
+		position: absolute;
+		top: 50%;
+		left: 40rpx;
+		transform: translateY(-50%);
+		color: #fff;
+		z-index: 1;
+}
+.banner-title.data-v-1cf27b2a {
+		font-size: 48rpx;
+		font-weight: bold;
+}
+.divider.data-v-1cf27b2a {
+		width: 80rpx;
+		height: 6rpx;
+		background-color: #fff;
+		margin: 10rpx 0;
+}
+.banner-desc.data-v-1cf27b2a {
+		font-size: 26rpx;
+		line-height: 1.4;
+}
+
+	/* 移除之前手动圆点指示器的样式 */
+	/*
+	.dots-indicator { ... }
+	.dot { ... }
+	.dot.active { ... }
+	*/
+
+	/* 功能模块区域 */
+.modules.data-v-1cf27b2a {
+		display: flex;
+		flex-wrap: wrap;
+		padding: 0 30rpx;
+		justify-content: space-between;
+}
+.module-card.data-v-1cf27b2a {
+		width: calc(50% - 15rpx);
+		background-color: #ffffff;
+		border-radius: 20rpx;
+		padding: 30rpx;
+		margin-bottom: 30rpx;
+		box-shadow: 0 4rpx 8rpx rgba(0, 0, 0, 0.05);
+		box-sizing: border-box;
+}
+.module-card--right.data-v-1cf27b2a {
+		/* ... */
+}
+.module-card--full-width.data-v-1cf27b2a {
+		width: 100%;
+}
+.module-title-wrapper.data-v-1cf27b2a {
+		position: relative;
+		margin-bottom: 30rpx;
+}
+.module-title.data-v-1cf27b2a {
+		font-size: 36rpx;
+		font-weight: bold;
+		color: #333333;
+		z-index: 1;
+		position: relative;
+}
+.title-underline.data-v-1cf27b2a {
+		position: absolute;
+		bottom: -5rpx;
+		left: 0;
+		width: 80rpx;
+		height: 10rpx;
+		background: linear-gradient(to right, #4A90E2, rgba(74, 144, 226, 0.3));
+		border-radius: 5rpx;
+}
+.module-items.data-v-1cf27b2a {
+		display: flex;
+		justify-content: space-around;
+		flex-wrap: wrap;
+}
+.module-items--four-columns.data-v-1cf27b2a {
+		justify-content: space-between;
+}
+.module-item.data-v-1cf27b2a {
+		display: flex;
+		flex-direction: column;
+		align-items: center;
+		width: 50%;
+		margin-bottom: 20rpx;
+}
+.module-items--four-columns .module-item.data-v-1cf27b2a {
+		width: 25%;
+		margin-bottom: 0;
+}
+.item-icon.data-v-1cf27b2a {
+		width: 80rpx;
+		height: 80rpx;
+		margin-bottom: 10rpx;
+}
+.item-text.data-v-1cf27b2a {
+		font-size: 28rpx;
+		color: #666666;
+		text-align: center;
+}
+
+	/* 操作指引 Banner */
+	/* 注释掉的旧样式保留，新的在下面 */
+	/*
+	.operation-guide-banner {
+		height: 200rpx;
+	}
+
+	.operation-guide-content {
+		position: static;
+		transform: none;
+		padding: 0 40rpx;
+		display: flex;
+		align-items: center;
+		height: 100%;
+	}
+
+	.operation-guide-title {
+		font-size: 50rpx;
+		font-weight: bold;
+		color: ##ff0000;
+		margin-right: 20rpx;
+	}
+	*/
+
+	/* operation guide area styles */
+.operation-guide-area.data-v-1cf27b2a {
+		margin-top: 20rpx;
+		/* 根据需要调整与上方内容的间距 */
+		padding: 0 30rpx;
+		/* 根据需要调整左右内边距 */
+		position: relative;
+		/* 设置相对定位，使其子元素可以使用绝对定位 */
+		overflow: hidden;
+		/* 如果图片有圆角，同时防止内容超出容器 */
+		border-radius: 10rpx;
+		/* 如果有圆角需求 */
+}
+.operation-guide-bg-image.data-v-1cf27b2a {
+		width: 100%;
+		/* 让图片宽度占满容器 */
+		display: block;
+		/* 使 image 元素变为块级元素 */
+}
+.operation-guide-text.data-v-1cf27b2a {
+		position: absolute;
+		/* 设置绝对定位，脱离文档流 */
+		top: 50rpx;
+		/* 根据设计调整文本距离顶部的距离 */
+		left: 50rpx;
+		/* 根据设计调整文本距离左侧的距离 */
+		font-size: 36rpx;
+		/* 根据设计调整字体大小 */
+		color: #ffffff;
+		/* 根据设计调整字体颜色，图片中是白色 */
+		/* 可以根据需要添加其他文本样式，如 font-weight */
+		/* 如果需要透明度效果，可以使用 rgba 或 opacity */
+		/* 例如：color: rgba(255, 255, 255, 0.8); */
+}
+
+	/* 消防资讯分隔标题样式 */
+.news-section-title.data-v-1cf27b2a {
+		display: flex;
+		align-items: center;
+		padding: 30rpx 0;
+		/* 上下内边距，增加与上下内容的距离 */
+		margin: 0 30rpx;
+		/* 左右外边距，与内容区域对齐 */
+		/*background-color: #f0f4f7;  根据实际情况是否需要背景色 */
+		position: relative;
+		/* 用于定位伪元素 */
+}
+.news-section-title.data-v-1cf27b2a::before {
+		content: '';
+		position: absolute;
+		left: -30rpx;
+		/* 与容器左侧对齐 */
+		top: 50%;
+		transform: translateY(-50%);
+		width: 10rpx;
+		/* 左侧线条宽度 */
+		height: 30rpx;
+		/* 左侧线条高度 */
+		background-color: #4A90E2;
+		/* 左侧线条颜色 */
+		border-radius: 5rpx;
+		/* 可选：给线条添加圆角 */
+}
+.news-section-title .title-text.data-v-1cf27b2a {
+		font-size: 36rpx;
+		font-weight: bold;
+		color: #333333;
+		padding-left: 20rpx;
+		/* 为文本留出左侧线条的空间 */
+}
+.news-list.data-v-1cf27b2a {
+		padding: 10rpx;
+}
+.news-item.data-v-1cf27b2a {
+		display: flex;
+		margin-bottom: 20rpx;
+		border-bottom: 1rpx solid #eee;
+		padding-bottom: 15rpx;
+}
+.news-cover.data-v-1cf27b2a {
+		width: 200rpx;
+		height: 150rpx;
+		margin-right: 20rpx;
+		border-radius: 8rpx;
+		flex-shrink: 0;
+		/* 防止图片被压缩 */
+}
+.news-info.data-v-1cf27b2a {
+		flex: 1;
+		/* 占据剩余空间 */
+		display: flex;
+		flex-direction: column;
+		justify-content: space-between;
+		/* 在主轴上均匀分布 */
+}
+.news-title.data-v-1cf27b2a {
+		font-size: 30rpx;
+		font-weight: bold;
+		overflow: hidden;
+		/* 隐藏超出部分 */
+		text-overflow: ellipsis;
+		/* 显示省略号 */
+		display: -webkit-box;
+		/* 作为弹性伸缩盒子模型显示 */
+		-webkit-box-orient: vertical;
+		/* 设置或检索伸缩盒对象的子元素的排列方式 */
+		-webkit-line-clamp: 2;
+		/* 限制显示的行数 */
+}
+.news-source.data-v-1cf27b2a,
+	.news-date.data-v-1cf27b2a {
+		font-size: 24rpx;
+		color: #999;
+		margin-top: 5rpx;
+}
+.loading-text.data-v-1cf27b2a {
+		text-align: center;
+		padding: 20rpx;
+		font-size: 28rpx;
+		color: #999;
+}
